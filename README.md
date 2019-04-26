@@ -17,7 +17,7 @@ Our main focus is to:
 
 The trained model was bases on ResNet50 pre-trained model, and has reached an accuracy of 95.61%, you can check the python notebook "Training_model.ipynb" if you would like to investigate the possibility of increasing the accuracy.
 
-After training the model, it can be used by a Flask application which allows user to upload an image (Fake or Pristine) and have the model predict the image's label. If you would like to know more about how the web app based on Flask was developed you can refer to the following link: https://www.mvmanh.com/machine-learning/huan-luyen-mo-hinh-deep-learning-de-phan-loai-anh-va-trien-khai-su-dung-trong-thuc-te.html.
+After training the model, it can be used by a Flask application which allows the user to upload an image (Fake or Pristine) and have the model predict the image's label. If you would like to know more about how the web app based on Flask was developed, you can refer to the following link: https://www.mvmanh.com/machine-learning/huan-luyen-mo-hinh-deep-learning-de-phan-loai-anh-va-trien-khai-su-dung-trong-thuc-te.html.
 
 We use Keras training our deep learning networking, an high-level deep learning library that offers a developer-friendly a deep learning framework which is built on top of tensorflow library.
 
