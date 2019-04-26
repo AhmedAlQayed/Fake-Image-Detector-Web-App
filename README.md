@@ -24,6 +24,8 @@ We use Keras training our deep learning networking, an high-level deep learning 
 1- For Data Preprocessing and Training please refer to the jupyter notebook.
 
 2- For Deploying the app:
+Please downloading our pre-trained model from this link:
+https://www.dropbox.com/s/3qbu5n48gdnia3z/keras_model4.hdf5.zip?dl=0
 Once you have the saved mode, please move it *****_static_***** folder of Flask app and run the following commands to start the app:å
 
     export FLASK_APP=app.py
