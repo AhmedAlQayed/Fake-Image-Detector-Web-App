@@ -1,13 +1,6 @@
 
-# Dog & Class Classification
+# Fake Image Detector Web App
 
-
-
-<p align="center">
-
-<img src='flask-app/sample.png'>
-
-</p>
 
 
 # Introduction
