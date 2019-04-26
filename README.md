@@ -10,7 +10,9 @@ This repository provides you source code to train a deep convolutional neuron ne
 The dataset used for training model is phase1 training dataset which can be downloaded from this link: http://ifc.recod.ic.unicamp.br/fc.website/index.py?sec=5
 
 Our main focus is to:
-1- Preprocess the data in order to have an effective training with mimimum amount of time and an acceptable accuracy.
+
+1- Preprocess the data in order to have an effective training with mimimum amount of time.
+
 2- Train a network using transfer learning technique to accelerate the process of getting an acceptable accuracy. 
 
 The trained model was bases on ResNet50 pre-trained model, and has reached an accuracy of 95.61%, you can check the python notebook "Training_model.ipynb" if you would like to investigate the possibility of increasing the accuracy.
