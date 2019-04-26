@@ -23,7 +23,7 @@ We use Keras training our deep learning networking, an high-level deep learning 
 
 # How to use
 
-1-For Data Preprocessing and Training please refer to the jupyter notebook.
+1-For Data Preprocessing and Training please refer to the jupyter notebook. Required dependencies are: *tensorflow*, *keras*, *numpy*, *scikit-learn*, *open-cv, and *python*.
 
 2-For Deploying the app:
 Please downloading our pre-trained model from this link:
