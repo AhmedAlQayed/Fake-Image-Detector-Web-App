@@ -5,20 +5,26 @@
 
 # Introduction
 
-This repository provides you source code to train a deep convolutional neuron network on **Kaggle's Dog & Cat** dataset. We're not focus on choosing the best CNN network, we just design a network which gives acceptable accuracy. The trained model is then used by a Flask application which allows user to upload an image of dog or cat and have the model predict the image's label. If you want more details on how the model was trained and the flask app was developed, please visit https://www.mvmanh.com/machine-learning/huan-luyen-mo-hinh-deep-learning-de-phan-loai-anh-va-trien-khai-su-dung-trong-thuc-te.html.
+This repository provides you source code to train a deep convolutional neuron network ResNet50 based on a dataset from The IEEE Information Forensics and Security Technical Committee (IFS-TC) challenge to classify fake and pristine images.
 
-We use Keras, an easy-to-use deep learning framework which builds on top of tensorflow to build and train the model.
+The dataset used for training model is phase1 training dataset which can be downloaded from this link: http://ifc.recod.ic.unicamp.br/fc.website/index.py?sec=5
 
+Our main focus is to:
+1- Preprocess the data in order to have an effective training with mimimum amount of time and an acceptable accuracy.
+2- Train a network using transfer learning technique to accelerate the process of getting an acceptable accuracy. 
+
+The trained model was bases on ResNet50 pre-trained model, and has reached an accuracy of 95.61%, you can check the python notebook "Training_model.ipynb" if you would like to investigate the possibility of increasing the accuracy.
+
+After training the model, it can be used by a Flask application which allows user to upload an image (Fake or Pristine) and have the model predict the image's label. If you would like to know more about how the web app based on Flask was developed you can refer to the following link: https://www.mvmanh.com/machine-learning/huan-luyen-mo-hinh-deep-learning-de-phan-loai-anh-va-trien-khai-su-dung-trong-thuc-te.html.
+
+We use Keras training our deep learning networking, an high-level deep learning library that offers a developer-friendly a deep learning framework which is built on top of tensorflow library.
 
 # How to use
 
+1- For Data Preprocessing and Training please refer to the jupyter notebook.
 
-We got an accuracy of 86% after finishing the training process. If you need a higer accuracy, you could adjust the network achitectures and training parameters. Required dependencies: *tensorflow*, *keras*, *numpy* and *python*. Use this command to start trainning:
-
-    python cat-dog-classification.py
-
-
-After finishing the training process, put the model (*****_dog-cat-final-model.h5_*****) in *****_static_***** folder of Flask app and run the following commands to start the app:å
+2- For Deploying the app:
+Once you have the saved mode, please move it *****_static_***** folder of Flask app and run the following commands to start the app:å
 
     export FLASK_APP=app.py
     python -m flask run
