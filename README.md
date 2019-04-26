@@ -11,9 +11,9 @@ The dataset used for training model is phase1 training dataset which can be down
 
 Our main focus is to:
 
-1- Preprocess the dataset in order to have an effective training with mimimum amount of time.
+1-Preprocess the dataset in order to have an effective training with mimimum amount of time.
 
-2- Train a network using transfer learning technique to accelerate the process of getting an acceptable accuracy. 
+2-Train a network using transfer learning technique to accelerate the process of getting an acceptable accuracy. 
 
 The trained model was bases on ResNet50 pre-trained model, and has reached an accuracy of ~90%, you can check the python notebook "Training_model.ipynb" if you would like to investigate the possibility of increasing the accuracy.
 
@@ -23,9 +23,9 @@ We use Keras training our deep learning networking, an high-level deep learning 
 
 # How to use
 
-1- For Data Preprocessing and Training please refer to the jupyter notebook.
+1-For Data Preprocessing and Training please refer to the jupyter notebook.
 
-2- For Deploying the app:
+2-For Deploying the app:
 Please downloading our pre-trained model from this link:
 https://www.dropbox.com/s/3qbu5n48gdnia3z/keras_model4.hdf5.zip?dl=0
 
